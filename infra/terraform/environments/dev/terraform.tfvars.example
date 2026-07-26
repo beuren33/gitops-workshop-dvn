@@ -1,0 +1,17 @@
+# Copie este arquivo para terraform.tfvars e preencha com valores reais
+# antes de rodar `terraform plan`/`apply`. terraform.tfvars não deve ser
+# commitado (ver .gitignore) caso contenha valores específicos do
+# operador; os demais campos já têm default alinhado ao ADR-001 e podem
+# ser omitidos se os defaults servirem.
+
+owner       = "SEU_NOME_OU_TIME"
+cost_center = "SEU_CENTRO_DE_CUSTO"
+
+# Os valores abaixo já refletem a decisão do ADR-001 (revisão 3) e só
+# precisam ser sobrescritos se essa decisão mudar:
+# aws_region     = "us-east-1"
+# project        = "dvn"
+# environment    = "dev"
+# vpc_cidr_block = "10.0.0.0/26"
+# subnet_newbits = 2
+# az_count       = 2

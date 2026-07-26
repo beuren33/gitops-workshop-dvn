@@ -1,0 +1,19 @@
+# Terraform — state local (ADR-001: sem backend remoto nesta entrega).
+# O state contém dados em texto claro e não pode ser commitado.
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+# .terraform.lock.hcl é COMMITADO deliberadamente (fixa a versão exata do
+# provider resolvida, reforçando a restrição pessimista da Boa Prática A.3.2).
+
+# Valores reais de variáveis por operador/ambiente — não commitar.
+terraform.tfvars
+*.auto.tfvars
+.claude
