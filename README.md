@@ -7,3 +7,4 @@ Este repositório contém o código desenvolvido durante o workshop, seguindo o 
 Material original e workshop ministrado por Kenerry Serain.
 Repositório base: [(https://github.com/kenerry-serain/dvn-workshop-julho)]
 
+# video-plataform
